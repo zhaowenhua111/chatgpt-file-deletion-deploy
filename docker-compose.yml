@@ -1,0 +1,19 @@
+services:
+
+  backend:
+    image: registry.xyhelper.cn/chatgpt-file-deletion:latest
+    ports:
+      - "9900:8001"
+    environment:
+      - TZ=Asia/Shanghai
+      - GPTPROXY=         # chatgpt接入点
+      - WEBHOOKURL=       # 企业微信机器人webhook地址（如果不用企业微信通知可不配置）
+    restart: unless-stopped
+    
+  redis:
+    image: redis
+    environment:
+      TZ: Asia/Shanghai
+    volumes:
+      - ./data/redis/:/data/
+    restart: unless-stopped
