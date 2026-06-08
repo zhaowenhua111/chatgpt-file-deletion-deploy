@@ -38,10 +38,9 @@ cd chatgpt-file-deletion
 ./deploy.sh
 ```
 
-## 
-配置docker-compose环境变量
-GPTPROXY=chatgpt接入点地址
-WEBHOOKURL=企业微信机器人webhook地址（如果不用企业微信通知可不配置）
+## 配置docker-compose环境变量
+- GPTPROXY=chatgpt接入点地址
+- WEBHOOKURL=企业微信机器人webhook地址（如果不用企业微信通知可不配置）
 
 ## 使用方法
 
