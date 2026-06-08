@@ -14,7 +14,7 @@ chatgpt-file-deletion 快速部署脚本库
 在服务器上执行以下命令即可
 
 ```bash
-curl -sSfL https://raw.githubusercontent.com/xyhelper/chatgpt-file-deletion-deploy/master/quick-install.sh | bash
+curl -sSfL https://raw.githubusercontent.com/xyhelper/chatgpt-file-deletion-deploy/main/quick-install.sh | bash
 
 ```
 
@@ -44,7 +44,7 @@ cd chatgpt-file-deletion
 
 ## 使用方法
 
-页面访问地址为 http://服务器 ip:9900/gpt/html
+页面访问地址为 http://服务器 ip:9900/gpt.html
 
 
 
