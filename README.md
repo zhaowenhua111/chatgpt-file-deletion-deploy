@@ -42,6 +42,8 @@ cd chatgpt-file-deletion
 - GPTPROXY=chatgpt接入点地址
 - WEBHOOKURL=企业微信机器人webhook地址（如果不用企业微信通知可不配置）
 - CONCURRENCY=账号并发数量 
+- CLEAN_MINTUNES=清理文件的最小时间，单位为分钟，默认1440分钟，（必须设置成整数，不能写成24*60），表示删除该设置时间之前的数据
+- CLEAN_PROPORTION=清理文件的比例，库文件超过该比例，触发清理任务
 
 ## 使用方法
 
